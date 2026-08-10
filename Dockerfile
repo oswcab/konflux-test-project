@@ -13,7 +13,7 @@ COPY main.go main.go
 RUN CGO_ENABLED=0 go build -a -o main main.go
 
 # Runtime stage
-FROM registry.access.redhat.com/ubi10-micro:10.1-1766049088@sha256:2946fa1b951addbcd548ef59193dc0af9b3e9fedb0287b4ddb6e697b06581622
+FROM registry.access.redhat.com/ubi10-micro:10.2-1786324819@sha256:cabedb588644e9da2c95ebb173a67b78d58aaedcb0eaa42a86f880bcef8a0b2f
 COPY --from=builder /opt/app-root/src/main /
 USER 65532:65532
 
