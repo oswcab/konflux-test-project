@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi10/go-toolset:10.1-1768450804@sha256:dc5382397fb172597021857190de7354e40e375d25f2e434318d7c3272b45c39 AS builder
+FROM registry.access.redhat.com/ubi10/go-toolset:10.2-1790270385@sha256:2e390158e50d9a462b79725e1b04424954029249f1c0bb39de1b00e4bad7b8c8 AS builder
 
 # Copy the Go Modules manifests
 COPY go.mod go.mod
