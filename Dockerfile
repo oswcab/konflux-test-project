@@ -21,3 +21,4 @@ ENV PORT 8081
 EXPOSE 8081
 
 CMD [ "./main" ]
+# konflux-test trigger run-308306bc-2cd7-42b6-bca1-5606229156cb 1793389736
